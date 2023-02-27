@@ -76,11 +76,9 @@ $.extend(numericInputIconBinding, {
     if (numberVal > max) {
       addError(el);
       showHelp(el);
-      numberVal = max;
     } else if (numberVal < min) {
       addError(el);
       showHelp(el);
-      numberVal = min;
     } else {
       hideHelp(el);
       removeError(el);
